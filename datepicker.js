@@ -375,7 +375,7 @@ class DatePicker extends Component {
             onRequestClose={() => {this.setModalVisible(false);}}
           >
             <View
-              style={{flex: 1}}
+              style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}
             >
               <TouchableComponent
                 style={Style.datePickerMask}
