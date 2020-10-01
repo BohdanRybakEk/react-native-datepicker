@@ -390,7 +390,8 @@ class DatePicker extends Component {
                   <Animated.View
                     style={[Style.datePickerCon, {height: this.state.animatedHeight}, customStyles.datePickerCon]}
                   >
-                    <View pointerEvents={this.state.allowPointerEvents ? 'auto' : 'none'}>
+                    <View pointerEvents={this.state.allowPointerEvents ? 'auto' : 'none'}
+                          style={{alignItems: 'center', justifyContent: 'center'}}>
                       <DatePickerIOS
                         date={this.state.date}
                         mode={mode}
