@@ -67,7 +67,8 @@ let style = StyleSheet.create({
     marginTop: 42,
     borderTopColor: '#ccc',
     borderTopWidth: 1,
-    width: '100%'
+    width: '100%',
+    justifyContent: 'center'
   },
   disabled: {
     backgroundColor: '#eee'
